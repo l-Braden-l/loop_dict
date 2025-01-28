@@ -14,5 +14,13 @@ mounatains = {
         'Himalayas': 8848
 }
 
+#---Items---#
 for key,value in mounatains.items():
-    print(f'The {key} have a height of {value} meters tall!')
+    print(f'The {key} have a height of {value} meters tall!\n')
+
+#---Keys---#
+for key in mounatains.keys():
+    print(key)
+#---Values---#
+for value in mounatains.values():
+    print(value)
