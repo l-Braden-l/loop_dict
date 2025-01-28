@@ -5,7 +5,7 @@
 
 
 
-#---Looping Dictionary---#
+#----Looping Dictionary----#
 mounatains = {
         'Andes': 6962,
         'Rockies': 4401,
@@ -14,13 +14,14 @@ mounatains = {
         'Himalayas': 8848
 }
 
-#---Items---#
+#----Items----#
 for key,value in mounatains.items():
     print(f'The {key} have a height of {value} meters tall!\n')
 
-#---Keys---#
+#----Keys----#
 for key in mounatains.keys():
     print(key)
-#---Values---#
+    
+#----Values----#
 for value in mounatains.values():
     print(value)
